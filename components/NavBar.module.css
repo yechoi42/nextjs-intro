@@ -1,0 +1,9 @@
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:cornsilk;
+}
+
+.active {
+    color: cadetblue
+}
