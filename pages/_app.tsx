@@ -1,11 +1,12 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import NavBar from '../components/NavBar'
+import Layout from '../components/Layout'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <div>
-    <NavBar />
+    <Layout>
     <Component {...pageProps} />
+    </Layout>
     <style jsx global>{`
       a {
         color: red;
